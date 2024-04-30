@@ -1,12 +1,57 @@
-body{
-    font-family: 'Trebuchet MS', sans-serif
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+.textdiv {
+    color:rgb(50, 50, 50);
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.textdiv a { 
+    color: rgb(120, 120, 120); 
+}
+
+.textdiv h3 { 
+    color: rgb(55, 32, 147); 
 }
 
 #title{
     color:white;
-    background-color:fuchsia;
-    padding: 30px;
+    background-color:rgb(55, 32, 147);
+    padding:0;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+#title img {
+    margin-right: 60px; 
+}
+
+#navbar {
+    background-color: white; 
+    text-align: center;
+    border: 2px solid rgb(55, 32, 147); 
+    padding: 10px;
+}
+
+#navbar a {
+    color: rgb(55, 32, 147); 
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+#navbar a:hover {
+    background-color: rgb(55, 32, 147); 
+    color: white;
 }
