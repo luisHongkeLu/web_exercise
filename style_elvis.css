@@ -1,0 +1,12 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif
+}
+
+#title{
+    color:white;
+    background-color:fuchsia;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 35px;
+}
